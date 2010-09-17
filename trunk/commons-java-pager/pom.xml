@@ -20,8 +20,28 @@
 		</license>
 	</licenses>
 	
+	<organization>
+		<name>tomaer.com</name>
+		<url>http://tomaer.com</url>
+	</organization>
 	<build>
 		<finalName>commons-java-pager-1.0</finalName>
 	</build>
+	<dependencies>
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.1</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.1</version>
+			<type>jar</type>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 	
 </project>
