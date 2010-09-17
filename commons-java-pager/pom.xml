@@ -1,3 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * commons-java-pager - common pager components for Java Web Develop - http://code.google.com/p/commons-java-pager/
+ * Copyright (C) 2008-2010 <a href="http://tomaer.com">tomaer</a>
+ * 
+ * == BEGIN LICENSE ==
+ * 
+ * Licensed under the terms of any of the following licenses at your choice:
+ * 
+ *  - Apache License, Version 2.0
+ *    http://http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ *  - Creative Commons 3.0 BY-SA
+ *    http://http://creativecommons.org/licenses/by-sa/3.0/
+ * 
+ * == END LICENSE ==
+ *@version: $Id: pom.xml 2010-09-17 13:53:23Z tomaer $
+ */
+-->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	
@@ -20,13 +40,21 @@
 		</license>
 	</licenses>
 	
-	<organization>
-		<name>tomaer.com</name>
-		<url>http://tomaer.com</url>
-	</organization>
-	<build>
-		<finalName>commons-java-pager-1.0</finalName>
-	</build>
+	<scm>
+		<url>https://commons-java-pager.googlecode.com/svn/trunk/commons-java-pager</url>
+		<connection>scm:svn:https://commons-java-pager.googlecode.com/svn/trunk/commons-java-pager</connection>
+		<developerConnection>scm:svn:https://commons-java-pager.googlecode.com/svn/trunk/commons-java-pager</developerConnection>
+	</scm>  
+
+	<developers>
+		<developer>
+			<id>1</id>
+			<name>tomaer</name>
+			<email>i@tomaer.com</email>
+			<url>http://tomaer.com</url>
+		</developer>
+	</developers>
+	
 	<dependencies>
 		<dependency>
 			<groupId>commons-logging</groupId>
@@ -43,5 +71,25 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	<build>
+		<finalName>commons-java-pager-1.0</finalName>
+		<plugins>
+        	<plugin> 
+            	<groupId>org.apache.maven.plugins</groupId> 
+                <artifactId>maven-compiler-plugin</artifactId> 
+                <version>2.3.1</version> 
+                	<configuration>
+                    	<source>1.5</source> 
+                        <target>1.5</target> 
+                    </configuration> 
+           </plugin> 
+    	</plugins>
+	</build>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
 	
 </project>
