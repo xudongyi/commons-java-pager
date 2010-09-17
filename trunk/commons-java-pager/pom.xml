@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.tomaer.platform.components</groupId>
+	<artifactId>commons-java-pager</artifactId>
+	<version>1.0</version>
+	<packaging>jar</packaging>
+	<name>commons-java-pager</name>
+	<url>http://code.google.com/p/commons-java-pager</url>
+	
+	<licenses>
+		<license>
+			<name>Apache License 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
+		</license>
+		<license>
+			<name>Creative Commons 3.0 BY-SA</name>
+			<url>http://creativecommons.org/licenses/by-sa/3.0</url>
+		</license>
+	</licenses>
+	
+	<build>
+		<finalName>commons-java-pager-1.0</finalName>
+	</build>
+	
+</project>
